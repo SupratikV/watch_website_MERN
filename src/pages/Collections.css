@@ -1,0 +1,119 @@
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.first,
+.second,
+.third,
+.fourth,
+.five,
+.six {
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first h2,
+.second h2,
+.third h2,
+.fourth h2,
+.five h2,
+.six h2 {
+    font-size: 24px;
+}
+
+.first .section-content,
+.second .section-content,
+.third .section-content,
+.fourth .section-content,
+.five .section-content,
+.six .section-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first .section-text,
+.second .section-text,
+.third .section-text,
+.fourth .section-text,
+.five .section-text,
+.six .section-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.first .section-image,
+.second .section-image,
+.third .section-image,
+.fourth .section-image,
+.five .section-image,
+.six .section-image {
+    flex: 1;
+    text-align: right;
+}
+
+.first .section-image img,
+.second .section-image img,
+.third .section-image img,
+.fourth .section-image img,
+.five .section-image img,
+.six .section-image img {
+    max-width: 100%;
+    height: auto;
+    padding: -10px;
+}
+
+.first a,
+.second a,
+.third a,
+.fourth a,
+.five a,
+.six a {
+    display: inline-block;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.first button,
+.second button,
+.third button,
+.fourth button,
+.five button,
+.six button {
+  background-color: #1f5156;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.first button:hover,
+.second button:hover,
+.third button:hover,
+.fourth button:hover,
+.five button:hover,
+.six button:hover {
+  background-color: #fff;
+  color: #1f5156;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
